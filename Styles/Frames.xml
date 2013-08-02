@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyleCollection xmlns:x="http://www.w3.org/2001/XMLSchema-instance">
+  <BrushStyles />
+  <ControlStyles>
+    <ControlStyle x:type="ImageStyle" StyleId="Empty">
+      <BorderThickness>0,0,0,0</BorderThickness>
+      <CornerRadius>0,0,0,0</CornerRadius>
+      <BackgroundBrush />
+      <BorderBrush />
+    </ControlStyle>
+    <ControlStyle x:type="GroupStyle" StyleId="Clear">
+      <BorderThickness>0,0,0,0</BorderThickness>
+      <CornerRadius>0,0,0,0</CornerRadius>
+      <BackgroundBrush />
+      <BorderBrush />
+      <GlossBrush />
+    </ControlStyle>
+    <ControlStyle x:type="LabelStyle" StyleId="60">
+      <FontSize>60</FontSize>
+      <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+    </ControlStyle>
+    <ControlStyle x:type="ImageStyle" StyleId="Background">
+      <BorderThickness>0,0,0,0</BorderThickness>
+      <CornerRadius>0,0,0,0</CornerRadius>
+      <BackgroundBrush x:type="ImageBrush" Image="\Backgrounds\Frames.jpg" Stretch="Fill" />
+      <BorderBrush />
+    </ControlStyle>
+    <ControlStyle x:type="LabelStyle" StyleId="50">
+      <FontSize>50</FontSize>
+      <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+    </ControlStyle>
+    <ControlStyle x:type="LabelStyle" StyleId="70">
+      <FontSize>70</FontSize>
+      <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+    </ControlStyle>
+    <ControlStyle x:type="LabelStyle" StyleId="40">
+      <FontSize>40</FontSize>
+      <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+    </ControlStyle>
+    <ControlStyle x:type="ProgressBarStyle" StyleId="Standard">
+      <BorderThickness>2,2,2,2</BorderThickness>
+      <CornerRadius>20,20,20,20</CornerRadius>
+      <BackgroundBrush />
+      <BorderBrush x:type="ColorBrush" Color="#FFC0C0C0" />
+      <ShadeBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#00000000" Offset="0" />
+          <GradientStop Color="#FF000000" Offset="1" />
+        </GradientStops>
+      </ShadeBrush>
+      <BarMargin>2,2,2,2</BarMargin>
+      <BarBorderThickness>0,0,0,0</BarBorderThickness>
+      <BarCornerRadius>15,15,15,15</BarCornerRadius>
+      <BarBorderBrush x:type="ColorBrush" Color="#FFC0C0C0" />
+      <BarBackgroundBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#FF0000FF" Offset="0" />
+          <GradientStop Color="#FF00008B" Offset="1" />
+        </GradientStops>
+      </BarBackgroundBrush>
+    </ControlStyle>
+    <ControlStyle x:type="ProgressBarStyle" StyleId="TV1">
+      <BorderThickness>2,2,2,2</BorderThickness>
+      <CornerRadius>20,20,20,20</CornerRadius>
+      <BackgroundBrush />
+      <BorderBrush />
+      <ShadeBrush />
+      <BarMargin>2,2,2,2</BarMargin>
+      <BarBorderThickness>0,0,0,0</BarBorderThickness>
+      <BarCornerRadius>15,15,15,15</BarCornerRadius>
+      <BarBorderBrush />
+      <BarBackgroundBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#FF32CD32" Offset="0" />
+          <GradientStop Color="#FF008000" Offset="1" />
+        </GradientStops>
+      </BarBackgroundBrush>
+    </ControlStyle>
+    <ControlStyle x:type="ProgressBarStyle" StyleId="TV2">
+      <BorderThickness>2,2,2,2</BorderThickness>
+      <CornerRadius>20,20,20,20</CornerRadius>
+      <BackgroundBrush />
+      <BorderBrush />
+      <ShadeBrush />
+      <BarMargin>2,2,2,2</BarMargin>
+      <BarBorderThickness>0,0,0,0</BarBorderThickness>
+      <BarCornerRadius>15,15,15,15</BarCornerRadius>
+      <BarBorderBrush />
+      <BarBackgroundBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#FFFF6347" Offset="0" />
+          <GradientStop Color="#FFB22222" Offset="1" />
+        </GradientStops>
+      </BarBackgroundBrush>
+    </ControlStyle>
+    <ControlStyle x:type="GroupStyle" StyleId="Standard NowPlaying">
+      <BorderThickness>5,5,5,0</BorderThickness>
+      <CornerRadius>20,20,0,0</CornerRadius>
+      <BackgroundBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#B4000000" Offset="0" />
+          <GradientStop Color="#96000000" Offset="0.576" />
+        </GradientStops>
+      </BackgroundBrush>
+      <BorderBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#FF515252" Offset="0" />
+          <GradientStop Color="#89525353" Offset="1" />
+        </GradientStops>
+      </BorderBrush>
+      <GlossBrush />
+    </ControlStyle>
+    <ControlStyle x:type="GroupStyle" StyleId="Standard Informations">
+      <BorderThickness>5,5,0,5</BorderThickness>
+      <CornerRadius>20,0,0,20</CornerRadius>
+      <BackgroundBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#B4000000" Offset="0" />
+          <GradientStop Color="#96000000" Offset="0.576" />
+        </GradientStops>
+      </BackgroundBrush>
+      <BorderBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#FF515252" Offset="0" />
+          <GradientStop Color="#89525353" Offset="1" />
+        </GradientStops>
+      </BorderBrush>
+      <GlossBrush />
+    </ControlStyle>
+  </ControlStyles>
+</StyleCollection>
