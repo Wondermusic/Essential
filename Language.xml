@@ -5,27 +5,27 @@
       <Values>
         <LanguageValue Language="English" Value="Season / Episode" />
         <LanguageValue Language="Deutsch" Value="Staffel / Folge" />
-        <LanguageValue Language="Francais" Value="Saison / Episode" />
+        <LanguageValue Language="Francais" Value="Saison / Effet" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@SeriesName">
       <Values>
         <LanguageValue Language="English" Value="Series Name" />
         <LanguageValue Language="Deutsch" Value="Serienname" />
-        <LanguageValue Language="Francais" Value="Nom de la Série" />
+        <LanguageValue Language="Francais" Value="Nom de la série" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@FPS">
       <Values>
-        <LanguageValue Language="English" Value="FPS" />
         <LanguageValue Language="Deutsch" Value="BPS" />
+        <LanguageValue Language="English" Value="FPS" />
         <LanguageValue Language="Francais" Value="FPS" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Resolution">
       <Values>
-        <LanguageValue Language="English" Value="Resolution" />
         <LanguageValue Language="Deutsch" Value="Auflösung" />
+        <LanguageValue Language="English" Value="Resolution" />
         <LanguageValue Language="Francais" Value="Définition" />
       </Values>
     </LanguageEntry>
@@ -33,13 +33,13 @@
       <Values>
         <LanguageValue Language="English" Value="Now Playing" />
         <LanguageValue Language="Deutsch" Value="Läuft jetzt" />
-        <LanguageValue Language="Francais" Value="Lecture en cours" />
+        <LanguageValue Language="Francais" Value="maintenant, en jouant" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Runtime">
       <Values>
-        <LanguageValue Language="English" Value="Runtime" />
         <LanguageValue Language="Deutsch" Value="Laufzeit" />
+        <LanguageValue Language="English" Value="Runtime" />
         <LanguageValue Language="Francais" Value="Durée" />
       </Values>
     </LanguageEntry>
@@ -59,8 +59,8 @@
     </LanguageEntry>
     <LanguageEntry Tag="@Next">
       <Values>
-        <LanguageValue Language="English" Value="Next" />
         <LanguageValue Language="Deutsch" Value="Nächste" />
+        <LanguageValue Language="English" Value="Next" />
         <LanguageValue Language="Francais" Value="Suivant" />
       </Values>
     </LanguageEntry>
