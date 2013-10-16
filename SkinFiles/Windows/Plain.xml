@@ -29,22 +29,64 @@
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
-      <LabelStyle StyleId="60">
-        <FontSize>20</FontSize>
-      </LabelStyle>
-      <LabelText>#currentmodule</LabelText>
+      <LabelStyle StyleId="60" />
+      <LabelText>#MPD.selecteditem</LabelText>
       <LabelTextAlignment>Center</LabelTextAlignment>
       <IsScrollingEnabled>false</IsScrollingEnabled>
       <ScrollSpeed>2</ScrollSpeed>
       <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+    </Control>
+    <Control x:type="List">
+      <Name>List</Name>
+      <Id>8</Id>
+      <Width>800</Width>
+      <Height>600</Height>
+      <PosX>400</PosX>
+      <PosY>20</PosY>
+      <VisibleCondition>IsMediaPortalControlFocused(50) || IsMediaPortalControlFocused(51)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <Animations>
+        <Animation x:type="Slide" Condition="VisibleTrue" Duration="500" Easing="EaseInOut" StartX="400" StartY="720" EndX="400" EndY="120" />
+        <Animation x:type="Slide" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" StartX="400" StartY="120" EndX="400" EndY="720" />
+      </Animations>
+      <MediaPortalFocusControls />
+      <ListControlStyle StyleId="List Background" />
+      <ListType>MediaPortalListControl</ListType>
+      <ListLayout>Auto</ListLayout>
+      <VerticalItemStyle StyleId="Vertical" />
+      <HorizontalItemStyle StyleId="Horizontal" />
+      <CoverFlowItemStyle StyleId="CoverFlow" />
+    </Control>
+    <Control x:type="Image">
+      <Name>Image</Name>
+      <Id>9</Id>
+      <Width>200</Width>
+      <Height>300</Height>
+      <PosX>25</PosX>
+      <PosY>100</PosY>
+      <VisibleCondition>IsControlVisible(8)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <Animations>
+        <Animation x:type="Zoom" Condition="VisibleTrue" Duration="500" Easing="EaseInOut" />
+        <Animation x:type="Zoom" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" From="100" To="0" />
+      </Animations>
+      <MediaPortalFocusControls />
+      <ImageStyle StyleId="Empty" />
+      <Image>#MPD.Thumb</Image>
+      <ImageStretch>Uniform</ImageStretch>
+      <ImageCornerRadius>15</ImageCornerRadius>
+      <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
     </Control>
     <Control x:type="Group">
       <Name>Date / Time</Name>
       <Id>2</Id>
       <Width>1280</Width>
       <Height>720</Height>
-      <VisibleCondition />
-      <Animations />
+      <VisibleCondition>!IsMediaPortalControlFocused(50) || !IsMediaPortalControlFocused(51)</VisibleCondition>
+      <Animations>
+        <Animation x:type="Zoom" Condition="VisibleTrue" Duration="200" Easing="EaseInOut" />
+        <Animation x:type="Zoom" Condition="VisibleFalse" Duration="200" Easing="EaseInOut" From="100" To="0" />
+      </Animations>
       <MediaPortalFocusControls />
       <GroupStyle StyleId="Clear" />
       <GroupControls>
@@ -73,10 +115,8 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="70">
-            <FontSize>20</FontSize>
-          </LabelStyle>
-          <LabelText>#Time</LabelText>
+          <LabelStyle StyleId="70" />
+          <LabelText>#time</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
@@ -92,10 +132,8 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="70">
-            <FontSize>20</FontSize>
-          </LabelStyle>
-          <LabelText>#Date</LabelText>
+          <LabelStyle StyleId="70" />
+          <LabelText>#date</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>

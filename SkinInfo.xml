@@ -2,8 +2,8 @@
 <XmlSkinInfo xmlns:x="http://www.w3.org/2001/XMLSchema-instance">
   <SkinWidth>1280</SkinWidth>
   <SkinHeight>720</SkinHeight>
-  <CurrentStyle>Titan</CurrentStyle>
-  <CurrentLanguage>English</CurrentLanguage>
+  <CurrentStyle>Avallanche</CurrentStyle>
+  <CurrentLanguage>Deutsch</CurrentLanguage>
   <TextEnableScrolling>false</TextEnableScrolling>
   <TextHorizontalScrollDelay>3</TextHorizontalScrollDelay>
   <TextHorizontalScrollSpeed>20</TextHorizontalScrollSpeed>
@@ -14,7 +14,7 @@
   <TextVerticalScrollWrap>true</TextVerticalScrollWrap>
   <TextVerticalScrollSeperator>---------------------------------</TextVerticalScrollSeperator>
   <SkinOptions>
-    <SkinOption Name="Default" IsEnabled="true" />
+    <SkinOption Name="Default" Group="BasicHome" IsEnabled="true" />
   </SkinOptions>
   <SkinName>Essential</SkinName>
   <Author>Wondermusic</Author>

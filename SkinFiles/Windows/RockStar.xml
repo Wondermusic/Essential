@@ -3,8 +3,8 @@
   <IsDefault>false</IsDefault>
   <Width>1280</Width>
   <Height>720</Height>
-  <Name>Music</Name>
-  <Id>3</Id>
+  <Name>RockStar</Name>
+  <Id>6</Id>
   <BackgroundBrush />
   <WindowAnimations />
   <WindowControls>
@@ -44,7 +44,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="70" />
-          <LabelText>#Play.Current.Artist</LabelText>
+          <LabelText>#Play.Current.Artist+ - +#Play.Current.Album</LabelText>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>10</ScrollSpeed>
           <ScrollSeperator>   |   </ScrollSeperator>
@@ -182,7 +182,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="60" />
-          <LabelText>#Play.Current.Duration</LabelText>
+          <LabelText>#currentremaining</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
@@ -382,5 +382,5 @@
       </GroupControls>
     </Control>
   </WindowControls>
-  <VisibleCondition>IsPlayer(IsCDA) || IsPlayer(IsMusic)</VisibleCondition>
+  <VisibleCondition>IsPlayer(Rockstar)</VisibleCondition>
 </Window>

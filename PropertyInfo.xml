@@ -18,139 +18,11 @@
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#Play.Current.VideoCodec.Texture</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#Play.Current.VideoCodec.Texture" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#Play.Current.VideoResolution</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#Play.Current.VideoResolution" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#Play.Current.AspectRatio</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#Play.Current.AspectRatio" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#Play.Current.AudioCodec.Texture</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#Play.Current.AudioCodec.Texture" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#Play.Current.AudioChannels</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#Play.Current.AudioChannels" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MovingPictures.LocalMedia.videocodec</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videocodec" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MovingPictures.LocalMedia.videoresolution</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videoresolution" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MovingPictures.LocalMedia.videoaspectratio</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videoaspectratio" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MovingPictures.LocalMedia.audiocodec</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.audiocodec" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MovingPictures.LocalMedia.audiochannels</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.audiochannels" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MovingPictures.Coverart</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MovingPictures.Coverart" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
       <SkinTag>#Play.Current.Video.Thumb</SkinTag>
       <PropertyType>Image</PropertyType>
       <DesignerValue>New....</DesignerValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Current.Video.Thumb" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#mvCentral.LocalMedia.videocodec</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.videocodec" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#mvCentral.LocalMedia.videoresolution</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.videoresolution" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#mvCentral.LocalMedia.videoaspectratio</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.videoaspectratio" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#mvCentral.LocalMedia.audiocodec</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.audiocodec" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#mvCentral.LocalMedia.audiochannels</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.audiochannels" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
@@ -175,6 +47,14 @@
       <DesignerValue>New....</DesignerValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.coverpath" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.View.thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.View.thumb" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
@@ -210,19 +90,147 @@
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#Date</SkinTag>
+      <SkinTag>#Play.Current.VideoCodec.Texture</SkinTag>
       <PropertyType>Label</PropertyType>
-      <DesignerValue>31.07.2013</DesignerValue>
+      <DesignerValue>New....</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#Date" />
+        <XmlMediaPortalTag Tag="#Play.Current.VideoCodec.Texture" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#Time</SkinTag>
+      <SkinTag>#Play.Current.VideoResolution</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.VideoResolution" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.AspectRatio</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.AspectRatio" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.AudioCodec.Texture</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.AudioCodec.Texture" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.AudioChannels</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.AudioChannels" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.LocalMedia.videocodec</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videocodec" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.LocalMedia.videoresolution</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videoresolution" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.LocalMedia.videoaspectratio</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videoaspectratio" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.LocalMedia.audiocodec</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.audiocodec" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.LocalMedia.audiochannels</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.audiochannels" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.Coverart</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.Coverart" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#mvCentral.LocalMedia.videocodec</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.videocodec" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#mvCentral.LocalMedia.videoresolution</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.videoresolution" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#mvCentral.LocalMedia.videoaspectratio</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.videoaspectratio" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#mvCentral.LocalMedia.audiocodec</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.audiocodec" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#mvCentral.LocalMedia.audiochannels</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.audiochannels" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#date</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>31.07.2013</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#date" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#time</SkinTag>
       <PropertyType>Label</PropertyType>
       <DesignerValue>20:23</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#Time" />
+        <XmlMediaPortalTag Tag="#time" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
@@ -490,11 +498,11 @@
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#TVSeries.Episode.SeasonLabel</SkinTag>
+      <SkinTag>#TVSeries.Season.SeasonLabel</SkinTag>
       <PropertyType>Label</PropertyType>
-      <DesignerValue>01</DesignerValue>
+      <DesignerValue>Staffel 1</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#TVSeries.Episode.SeasonLabel" />
+        <XmlMediaPortalTag Tag="#TVSeries.Season.SeasonLabel" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
@@ -527,6 +535,72 @@
       <DesignerValue>Battlefield 3 (abgekürzt: BF3) ist ein Ego-Shooter, der von dem Computerspielhersteller DICE entwickelt und am 27. Oktober 2011 von Electronic Arts veröffentlicht wurde. Es ist der direkte Nachfolger des 2005 publizierten Spiels Battlefield 2. Battlefield 3 ist das erste Spiel, das auf Grundlage der hauseigenen Grafikengine Frostbite 2 entwickelt wurde. Als Nachfolger wurde Battlefield 4 für den Herbst 2013 angekündigt.[1][2]</DesignerValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.description" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MP.SystemInfo.Label.Time</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>13:45</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.Time" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MP.SystemInfo.Label.Date2</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>13.10.2013</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.Date2" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD.selecteditem</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#selecteditem" />
+        <XmlMediaPortalTag Tag="#highlightedbutton" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.Album</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.Album" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.RecordedTV.Title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.RecordedTV.Title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#duration</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#duration" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TVSeries.Episode.EpisodeIndex</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>1</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TVSeries.Episode.EpisodeIndex" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD.Thumb</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.Thumb" />
+        <XmlMediaPortalTag Tag="#selectedthumb" />
       </MediaPortalTags>
     </XmlProperty>
   </Properties>

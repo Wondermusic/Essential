@@ -3,8 +3,8 @@
   <IsDefault>false</IsDefault>
   <Width>1280</Width>
   <Height>720</Height>
-  <Name>Video</Name>
-  <Id>7</Id>
+  <Name>myAnime</Name>
+  <Id>13</Id>
   <BackgroundBrush />
   <WindowAnimations />
   <WindowControls>
@@ -79,14 +79,14 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="60" />
-          <LabelText>#Play.Current.Duration</LabelText>
+          <LabelText>#currentremaining</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
         <Control x:type="ProgressBar">
-          <Name>NewProgressBar</Name>
+          <Name>ProgressBar1</Name>
           <Id>6</Id>
           <Width>880</Width>
           <Height>40</Height>
@@ -95,30 +95,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ProgressBarStyle>
-            <BorderThickness>2,2,2,2</BorderThickness>
-            <CornerRadius>20,20,20,20</CornerRadius>
-            <BackgroundBrush />
-            <BorderBrush x:type="ColorBrush" Color="#FFC0C0C0" />
-            <ShadeBrush x:type="GradientBrush">
-              <Angle>Vertical</Angle>
-              <GradientStops>
-                <GradientStop Color="#00000000" Offset="0" />
-                <GradientStop Color="#FF000000" Offset="1" />
-              </GradientStops>
-            </ShadeBrush>
-            <BarMargin>2,2,2,2</BarMargin>
-            <BarBorderThickness>0,0,0,0</BarBorderThickness>
-            <BarCornerRadius>15,15,15,15</BarCornerRadius>
-            <BarBorderBrush x:type="ColorBrush" Color="#FFC0C0C0" />
-            <BarBackgroundBrush x:type="GradientBrush">
-              <Angle>Vertical</Angle>
-              <GradientStops>
-                <GradientStop Color="#FF0000FF" Offset="0" />
-                <GradientStop Color="#FF00008B" Offset="1" />
-              </GradientStops>
-            </BarBackgroundBrush>
-          </ProgressBarStyle>
+          <ProgressBarStyle StyleId="Standard" />
           <ProgressValue>#percentage</ProgressValue>
         </Control>
       </GroupControls>
@@ -218,10 +195,10 @@
     <Control x:type="Image">
       <Name>Thumb</Name>
       <Id>13</Id>
-      <Width>258</Width>
-      <Height>376</Height>
+      <Width>300</Width>
+      <Height>300</Height>
       <PosX>13</PosX>
-      <PosY>160</PosY>
+      <PosY>190</PosY>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
@@ -281,5 +258,5 @@
       </GroupControls>
     </Control>
   </WindowControls>
-  <VisibleCondition>IsPlayer(IsDVD) || IsPlayer(IsVideo)</VisibleCondition>
+  <VisibleCondition>IsPlayer(MyAnime)</VisibleCondition>
 </Window>

@@ -3,14 +3,14 @@
   <IsDefault>false</IsDefault>
   <Width>1280</Width>
   <Height>720</Height>
-  <Name>Video</Name>
-  <Id>7</Id>
+  <Name>Online Videos</Name>
+  <Id>12</Id>
   <BackgroundBrush />
   <WindowAnimations />
   <WindowControls>
     <Control x:type="Image">
       <Name>Background</Name>
-      <Id>1</Id>
+      <Id>7</Id>
       <Width>1280</Width>
       <Height>720</Height>
       <VisibleCondition />
@@ -22,7 +22,7 @@
     </Control>
     <Control x:type="Group">
       <Name>NowPlaying</Name>
-      <Id>2</Id>
+      <Id>1</Id>
       <Width>900</Width>
       <Height>180</Height>
       <PosY>542</PosY>
@@ -36,7 +36,7 @@
       <GroupControls>
         <Control x:type="Label">
           <Name>Title</Name>
-          <Id>3</Id>
+          <Id>2</Id>
           <Width>880</Width>
           <Height>80</Height>
           <PosX>5</PosX>
@@ -54,7 +54,7 @@
         </Control>
         <Control x:type="Label">
           <Name>CurrentPlayTime</Name>
-          <Id>4</Id>
+          <Id>3</Id>
           <Width>300</Width>
           <Height>70</Height>
           <PosX>5</PosX>
@@ -70,7 +70,7 @@
         </Control>
         <Control x:type="Label">
           <Name>CurrentDuration</Name>
-          <Id>5</Id>
+          <Id>4</Id>
           <Width>300</Width>
           <Height>70</Height>
           <PosX>580</PosX>
@@ -79,14 +79,27 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="60" />
-          <LabelText>#Play.Current.Duration</LabelText>
+          <LabelText>#currentremaining</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
         <Control x:type="ProgressBar">
-          <Name>NewProgressBar</Name>
+          <Name>ProgressBar3</Name>
+          <Id>5</Id>
+          <Width>880</Width>
+          <Height>40</Height>
+          <PosX>5</PosX>
+          <PosY>75</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ProgressBarStyle StyleId="TV1" />
+          <ProgressValue>#TV.Record.percent3</ProgressValue>
+        </Control>
+        <Control x:type="ProgressBar">
+          <Name>ProgressBar1</Name>
           <Id>6</Id>
           <Width>880</Width>
           <Height>40</Height>
@@ -95,37 +108,14 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ProgressBarStyle>
-            <BorderThickness>2,2,2,2</BorderThickness>
-            <CornerRadius>20,20,20,20</CornerRadius>
-            <BackgroundBrush />
-            <BorderBrush x:type="ColorBrush" Color="#FFC0C0C0" />
-            <ShadeBrush x:type="GradientBrush">
-              <Angle>Vertical</Angle>
-              <GradientStops>
-                <GradientStop Color="#00000000" Offset="0" />
-                <GradientStop Color="#FF000000" Offset="1" />
-              </GradientStops>
-            </ShadeBrush>
-            <BarMargin>2,2,2,2</BarMargin>
-            <BarBorderThickness>0,0,0,0</BarBorderThickness>
-            <BarCornerRadius>15,15,15,15</BarCornerRadius>
-            <BarBorderBrush x:type="ColorBrush" Color="#FFC0C0C0" />
-            <BarBackgroundBrush x:type="GradientBrush">
-              <Angle>Vertical</Angle>
-              <GradientStops>
-                <GradientStop Color="#FF0000FF" Offset="0" />
-                <GradientStop Color="#FF00008B" Offset="1" />
-              </GradientStops>
-            </BarBackgroundBrush>
-          </ProgressBarStyle>
-          <ProgressValue>#percentage</ProgressValue>
+          <ProgressBarStyle StyleId="Standard" />
+          <ProgressValue>#TV.View.Percentage</ProgressValue>
         </Control>
       </GroupControls>
     </Control>
     <Control x:type="Group">
       <Name>Informations</Name>
-      <Id>7</Id>
+      <Id>8</Id>
       <Width>600</Width>
       <Height>95</Height>
       <PosX>680</PosX>
@@ -140,7 +130,7 @@
       <GroupControls>
         <Control x:type="Image">
           <Name>Video Codec</Name>
-          <Id>8</Id>
+          <Id>9</Id>
           <Width>110</Width>
           <Height>65</Height>
           <PosX>5</PosX>
@@ -155,7 +145,7 @@
         </Control>
         <Control x:type="Image">
           <Name>Video Resolution</Name>
-          <Id>9</Id>
+          <Id>10</Id>
           <Width>110</Width>
           <Height>65</Height>
           <PosX>120</PosX>
@@ -170,7 +160,7 @@
         </Control>
         <Control x:type="Image">
           <Name>Video Aspect Ratio</Name>
-          <Id>10</Id>
+          <Id>11</Id>
           <Width>110</Width>
           <Height>65</Height>
           <PosX>235</PosX>
@@ -185,7 +175,7 @@
         </Control>
         <Control x:type="Image">
           <Name>Audio Codec</Name>
-          <Id>11</Id>
+          <Id>12</Id>
           <Width>110</Width>
           <Height>65</Height>
           <PosX>350</PosX>
@@ -200,7 +190,7 @@
         </Control>
         <Control x:type="Image">
           <Name>Audio Channels</Name>
-          <Id>12</Id>
+          <Id>13</Id>
           <Width>110</Width>
           <Height>65</Height>
           <PosX>465</PosX>
@@ -217,11 +207,11 @@
     </Control>
     <Control x:type="Image">
       <Name>Thumb</Name>
-      <Id>13</Id>
-      <Width>258</Width>
-      <Height>376</Height>
+      <Id>14</Id>
+      <Width>300</Width>
+      <Height>300</Height>
       <PosX>13</PosX>
-      <PosY>160</PosY>
+      <PosY>190</PosY>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
@@ -233,7 +223,7 @@
     </Control>
     <Control x:type="Group">
       <Name>Date / Time</Name>
-      <Id>14</Id>
+      <Id>15</Id>
       <Width>640</Width>
       <Height>150</Height>
       <VisibleCondition />
@@ -248,7 +238,7 @@
       <GroupControls>
         <Control x:type="Label">
           <Name>Time</Name>
-          <Id>15</Id>
+          <Id>16</Id>
           <Width>625</Width>
           <Height>60</Height>
           <PosX>5</PosX>
@@ -264,7 +254,7 @@
         </Control>
         <Control x:type="Label">
           <Name>Date</Name>
-          <Id>16</Id>
+          <Id>17</Id>
           <Width>625</Width>
           <Height>60</Height>
           <PosX>5</PosX>
@@ -281,5 +271,5 @@
       </GroupControls>
     </Control>
   </WindowControls>
-  <VisibleCondition>IsPlayer(IsDVD) || IsPlayer(IsVideo)</VisibleCondition>
+  <VisibleCondition>IsPlayer(OnlineVideos)</VisibleCondition>
 </Window>
