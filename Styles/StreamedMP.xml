@@ -180,35 +180,57 @@
     <ControlStyle x:type="ListItemStyle" StyleId="Vertical">
       <BorderThickness>1,1,1,1</BorderThickness>
       <CornerRadius>4,4,4,4</CornerRadius>
-      <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
-      <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
-      <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
-      <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
+      <NoFocusBrush />
+      <NoFocusBorderBrush />
+      <FocusBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#A0D1F4FF" Offset="0" />
+          <GradientStop Color="#A063CDF1" Offset="0.475" />
+          <GradientStop Color="#A04090AC" Offset="0.504" />
+          <GradientStop Color="#A01DA3D0" Offset="0.525" />
+          <GradientStop Color="#A0003649" Offset="1" />
+        </GradientStops>
+      </FocusBrush>
+      <FocusBorderBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#C8135971" Offset="0" />
+          <GradientStop Color="#C8001923" Offset="1" />
+        </GradientStops>
+      </FocusBorderBrush>
       <FontType>Fluid</FontType>
       <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-      <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
-      <LabelMargin>50,0,0,0</LabelMargin>
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <LabelMargin>10,0,0,0</LabelMargin>
       <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
-      <EnableImage>true</EnableImage>
       <ImageMargin>3,3,3,3</ImageMargin>
       <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
       <ImageVerticalAlignment>Top</ImageVerticalAlignment>
       <ImageCornerRadius>4</ImageCornerRadius>
-      <Width>1100</Width>
+      <Width>700</Width>
       <Height>80</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
+      <HorizontalAlignment>Right</HorizontalAlignment>
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="CoverFlow">
       <BorderThickness>1,1,1,1</BorderThickness>
       <CornerRadius>4,4,4,4</CornerRadius>
-      <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
-      <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
-      <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
+      <NoFocusBrush />
+      <NoFocusBorderBrush />
+      <FocusBrush x:type="GradientBrush">
+        <Angle>Horizontal</Angle>
+        <GradientStops>
+          <GradientStop Color="#96D9F6FF" Offset="0" />
+          <GradientStop Color="#82003243" Offset="0.504" />
+          <GradientStop Color="#96D9F6FF" Offset="1" />
+        </GradientStops>
+      </FocusBrush>
       <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
       <FontType>Fluid</FontType>
       <FontSize>18</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-      <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
       <LabelMargin>3,3,3,3</LabelMargin>
       <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
       <EnableImage>true</EnableImage>
@@ -220,14 +242,21 @@
     <ControlStyle x:type="ListItemStyle" StyleId="Horizontal">
       <BorderThickness>1,1,1,1</BorderThickness>
       <CornerRadius>4,4,4,4</CornerRadius>
-      <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
-      <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
-      <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
+      <NoFocusBrush />
+      <NoFocusBorderBrush />
+      <FocusBrush x:type="GradientBrush">
+        <Angle>Horizontal</Angle>
+        <GradientStops>
+          <GradientStop Color="#96D9F6FF" Offset="0" />
+          <GradientStop Color="#82003243" Offset="0.504" />
+          <GradientStop Color="#96D9F6FF" Offset="1" />
+        </GradientStops>
+      </FocusBrush>
       <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
       <FontType>Fluid</FontType>
       <FontSize>18</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-      <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
       <LabelMargin>3,3,3,3</LabelMargin>
       <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
       <EnableImage>true</EnableImage>
@@ -273,7 +302,7 @@
     <ControlStyle x:type="ImageStyle" StyleId="Dialog Background">
       <BorderThickness>1,1,1,1</BorderThickness>
       <CornerRadius>4,4,4,4</CornerRadius>
-      <BackgroundBrush x:type="ImageBrush" Image="\Dialogs\Avallanche\dialog_background.png" Stretch="Fill" />
+      <BackgroundBrush x:type="ImageBrush" Image="\Dialogs\StreamedMP\dialogmenumiddle.png" Stretch="Fill" />
       <BorderBrush />
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="Dialog">

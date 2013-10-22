@@ -58,6 +58,15 @@
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
+      <SkinTag>#MPD.Thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.Thumb" />
+        <XmlMediaPortalTag Tag="#selectedthumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
       <SkinTag>#percentage</SkinTag>
       <PropertyType>Number</PropertyType>
       <DesignerValue>25</DesignerValue>
@@ -558,8 +567,8 @@
       <PropertyType>Label</PropertyType>
       <DesignerValue>New....</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#selecteditem" />
         <XmlMediaPortalTag Tag="#highlightedbutton" />
+        <XmlMediaPortalTag Tag="#selecteditem" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
@@ -592,15 +601,6 @@
       <DesignerValue>1</DesignerValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TVSeries.Episode.EpisodeIndex" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MPD.Thumb</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#Play.Current.Thumb" />
-        <XmlMediaPortalTag Tag="#selectedthumb" />
       </MediaPortalTags>
     </XmlProperty>
   </Properties>

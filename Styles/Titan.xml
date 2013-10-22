@@ -178,30 +178,34 @@
       <GlossBrush />
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="Vertical">
-      <BorderThickness>1,1,1,1</BorderThickness>
+      <BorderThickness>5,0,0,0</BorderThickness>
       <CornerRadius>4,4,4,4</CornerRadius>
       <NoFocusBrush />
       <NoFocusBorderBrush />
       <FocusBrush x:type="GradientBrush">
         <Angle>Horizontal</Angle>
         <GradientStops>
-          <GradientStop Color="#FF00B7FF" Offset="0" />
-          <GradientStop Color="#63000000" Offset="0.021" />
-          <GradientStop Color="#6400B7FF" Offset="0.043" />
+          <GradientStop Color="#63000000" Offset="0" />
+          <GradientStop Color="#6400B7FF" Offset="0.014" />
           <GradientStop Color="#6400B7FF" Offset="0.065" />
           <GradientStop Color="#6400B7FF" Offset="0.086" />
           <GradientStop Color="#8400B7FF" Offset="0.209" />
           <GradientStop Color="#1A00B7FF" Offset="1" />
         </GradientStops>
       </FocusBrush>
-      <FocusBorderBrush />
+      <FocusBorderBrush x:type="GradientBrush">
+        <Angle>Horizontal</Angle>
+        <GradientStops>
+          <GradientStop Color="#FF00B7FF" Offset="0" />
+          <GradientStop Color="#0A00B7FF" Offset="0.288" />
+        </GradientStops>
+      </FocusBorderBrush>
       <FontType>Titan</FontType>
       <FontSize>50</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FFFFFAFA" />
       <NoFocusFontBrush x:type="ColorBrush" Color="#FFF8F8FF" />
-      <LabelMargin>125,0,0,0</LabelMargin>
+      <LabelMargin>10,0,0,0</LabelMargin>
       <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
-      <EnableImage>true</EnableImage>
       <ImageMargin>30,3,3,3</ImageMargin>
       <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
       <ImageVerticalAlignment>Top</ImageVerticalAlignment>
@@ -209,6 +213,7 @@
       <Width>1200</Width>
       <Height>80</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
+      <HorizontalAlignment>Right</HorizontalAlignment>
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="CoverFlow">
       <BorderThickness>1,1,1,1</BorderThickness>
