@@ -103,6 +103,42 @@
       <ScrollSpeed>2</ScrollSpeed>
       <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
     </Control>
+    <Control x:type="Rectangle">
+      <Name>Rectangle</Name>
+      <Id>10</Id>
+      <Width>803</Width>
+      <Height>606</Height>
+      <PosX>382</PosX>
+      <PosY>35</PosY>
+      <VisibleCondition>IsControlVisible(8) ++ IsMediaPortalListLayout(Vertical)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <Animations>
+        <Animation x:type="Slide" Condition="VisibleTrue" Duration="300" Easing="EaseInOut" StartX="382" StartY="720" EndX="382" EndY="35" />
+        <Animation x:type="Slide" Condition="VisibleFalse" Duration="300" Easing="EaseInOut" StartX="382" StartY="35" EndX="382" EndY="720" />
+      </Animations>
+      <MediaPortalFocusControls />
+      <BorderThickness>0,0,0,0</BorderThickness>
+      <CornerRadius>12,12,12,12</CornerRadius>
+      <BackgroundBrush x:type="ColorBrush" Color="#BE000000" />
+    </Control>
+    <Control x:type="Rectangle">
+      <Name>Rectangle</Name>
+      <Id>11</Id>
+      <Width>1103</Width>
+      <Height>622</Height>
+      <PosX>85</PosX>
+      <PosY>35</PosY>
+      <VisibleCondition>IsMediaPortalListLayout(Horizontal) || IsMediaPortalListLayout(CoverFlow)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <Animations>
+        <Animation x:type="Slide" Condition="VisibleTrue" Duration="300" Easing="EaseInOut" StartX="85" StartY="720" EndX="85" EndY="35" />
+        <Animation x:type="Slide" Condition="VisibleFalse" Duration="300" Easing="EaseInOut" StartX="85" StartY="35" EndX="85" EndY="720" />
+      </Animations>
+      <MediaPortalFocusControls />
+      <BorderThickness>0,0,0,0</BorderThickness>
+      <CornerRadius>12,12,12,12</CornerRadius>
+      <BackgroundBrush x:type="ColorBrush" Color="#BE000000" />
+    </Control>
     <Control x:type="List">
       <Name>List</Name>
       <Id>8</Id>
@@ -113,13 +149,14 @@
       <VisibleCondition>IsMediaPortalControlFocused(50) || IsMediaPortalControlFocused(51)</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations>
-        <Animation x:type="Slide" Condition="VisibleTrue" Duration="500" Easing="EaseInOut" StartX="400" StartY="720" EndX="400" EndY="120" />
-        <Animation x:type="Slide" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" StartX="400" StartY="120" EndX="400" EndY="720" />
+        <Animation x:type="Slide" Condition="VisibleTrue" Duration="300" Delay="100" Easing="EaseInOut" StartX="86" StartY="720" EndX="86" EndY="37" />
+        <Animation x:type="Slide" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" StartX="86" StartY="37" EndX="86" EndY="720" />
       </Animations>
       <MediaPortalFocusControls />
       <ListControlStyle>
         <BorderThickness>0,0,0,0</BorderThickness>
         <CornerRadius>0,0,0,0</CornerRadius>
+        <BackgroundBrush />
       </ListControlStyle>
       <ListType>MediaPortalListControl</ListType>
       <ListLayout>Auto</ListLayout>
@@ -130,10 +167,10 @@
     <Control x:type="Image">
       <Name>Image</Name>
       <Id>9</Id>
-      <Width>300</Width>
-      <Height>300</Height>
-      <PosX>25</PosX>
-      <PosY>100</PosY>
+      <Width>360</Width>
+      <Height>360</Height>
+      <PosX>12</PosX>
+      <PosY>180</PosY>
       <VisibleCondition>IsControlVisible(8) ++ IsMediaPortalListLayout(Vertical)</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations>

@@ -64,6 +64,9 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Current.Thumb" />
         <XmlMediaPortalTag Tag="#selectedthumb" />
+        <XmlMediaPortalTag Tag="#TVSeries.SeriesPoster" />
+        <XmlMediaPortalTag Tag="#TVSeries.EpisodeImage" />
+        <XmlMediaPortalTag Tag="#MovingPictures.Coverart" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>

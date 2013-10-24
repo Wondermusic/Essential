@@ -199,7 +199,7 @@
       <FontType>Verdana</FontType>
       <FontSize>50</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-      <NoFocusFontBrush x:type="ColorBrush" Color="#BF000000" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
       <LabelMargin>10,0,0,0</LabelMargin>
       <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
       <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
@@ -226,7 +226,7 @@
       </FocusBrush>
       <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
       <FontType>Verdana</FontType>
-      <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+      <FocusFontBrush x:type="ColorBrush" Color="#FFD3D3D3" />
       <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
       <LabelMargin>3,3,3,3</LabelMargin>
       <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
@@ -234,7 +234,7 @@
       <ImageMargin>3,3,3,33</ImageMargin>
       <ImageVerticalAlignment>Top</ImageVerticalAlignment>
       <Width>231</Width>
-      <Height>399</Height>
+      <Height>369</Height>
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="Horizontal">
       <BorderThickness>1,1,1,1</BorderThickness>

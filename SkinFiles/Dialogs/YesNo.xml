@@ -115,9 +115,9 @@
         <BorderThickness>0,0,0,0</BorderThickness>
         <CornerRadius>0,0,0,0</CornerRadius>
       </ListControlStyle>
-      <ListType>MediaPortalDialogList</ListType>
+      <ListType>MediaPortalButtonGroup</ListType>
       <ListLayout>Auto</ListLayout>
-      <VerticalItemStyle StyleId="Dialog" />
+      <VerticalItemStyle StyleId="Dialog2" />
       <HorizontalItemStyle>
         <CornerRadius>15,15,15,15</CornerRadius>
         <NoFocusBrush />
