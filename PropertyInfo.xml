@@ -550,19 +550,19 @@
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#MP.SystemInfo.Label.Time</SkinTag>
+      <SkinTag>#MPD.SystemInfo.Label.Time</SkinTag>
       <PropertyType>Label</PropertyType>
       <DesignerValue>13:45</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.Time" />
+        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.Time" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#MP.SystemInfo.Label.Date2</SkinTag>
+      <SkinTag>#MPD.SystemInfo.Label.Date2</SkinTag>
       <PropertyType>Label</PropertyType>
       <DesignerValue>13.10.2013</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.Date2" />
+        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.Date2" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>

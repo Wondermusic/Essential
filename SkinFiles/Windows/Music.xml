@@ -202,25 +202,7 @@
         <Animation x:type="Slide" Condition="WindowClose" Duration="1000" Easing="EaseIn" StartY="250" EndX="-335" EndY="250" />
       </Animations>
       <MediaPortalFocusControls />
-      <GroupStyle>
-        <BorderThickness>5,5,0,5</BorderThickness>
-        <CornerRadius>0,20,0,0</CornerRadius>
-        <BackgroundBrush x:type="GradientBrush">
-          <Angle>Vertical</Angle>
-          <GradientStops>
-            <GradientStop Color="#B4D3D3D3" Offset="0" />
-            <GradientStop Color="#96D3D3D3" Offset="0.576" />
-          </GradientStops>
-        </BackgroundBrush>
-        <BorderBrush x:type="GradientBrush">
-          <Angle>Vertical</Angle>
-          <GradientStops>
-            <GradientStop Color="#FFD3D3D3" Offset="0" />
-            <GradientStop Color="#89A5A5A5" Offset="1" />
-          </GradientStops>
-        </BorderBrush>
-        <GlossBrush />
-      </GroupStyle>
+      <GroupStyle StyleId="NextPlaying" />
       <GroupControls>
         <Control x:type="Label">
           <Name>Next</Name>

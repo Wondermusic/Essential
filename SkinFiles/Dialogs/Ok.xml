@@ -24,10 +24,10 @@
     <Control x:type="Label">
       <Name>Dialog Title</Name>
       <Id>1</Id>
-      <Width>615</Width>
+      <Width>526</Width>
       <Height>70</Height>
-      <PosX>61</PosX>
-      <PosY>58</PosY>
+      <PosX>119</PosX>
+      <PosY>64</PosY>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
@@ -40,10 +40,10 @@
     <Control x:type="Label">
       <Name>TextArea1</Name>
       <Id>3</Id>
-      <Width>647</Width>
+      <Width>619</Width>
       <Height>60</Height>
-      <PosX>61</PosX>
-      <PosY>137</PosY>
+      <PosX>74</PosX>
+      <PosY>125</PosY>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
@@ -56,10 +56,10 @@
     <Control x:type="Label">
       <Name>TextArea2</Name>
       <Id>4</Id>
-      <Width>647</Width>
+      <Width>619</Width>
       <Height>60</Height>
-      <PosX>61</PosX>
-      <PosY>200</PosY>
+      <PosX>74</PosX>
+      <PosY>170</PosY>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
@@ -72,10 +72,10 @@
     <Control x:type="Label">
       <Name>TextArea3</Name>
       <Id>5</Id>
-      <Width>647</Width>
+      <Width>619</Width>
       <Height>60</Height>
-      <PosX>61</PosX>
-      <PosY>263</PosY>
+      <PosX>74</PosX>
+      <PosY>215</PosY>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
@@ -88,10 +88,10 @@
     <Control x:type="Label">
       <Name>TextArea4</Name>
       <Id>6</Id>
-      <Width>647</Width>
+      <Width>619</Width>
       <Height>60</Height>
-      <PosX>61</PosX>
-      <PosY>326</PosY>
+      <PosX>74</PosX>
+      <PosY>260</PosY>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />

@@ -187,20 +187,21 @@
         <GradientStops>
           <GradientStop Color="#96A7C6E4" Offset="0" />
           <GradientStop Color="#965293D5" Offset="0.492" />
-          <GradientStop Color="#962571D1" Offset="0.504" />
-          <GradientStop Color="#96002B60" Offset="1" />
+          <GradientStop Color="#962570D1" Offset="0.504" />
+          <GradientStop Color="#96002A60" Offset="1" />
         </GradientStops>
       </FocusBrush>
       <FocusBorderBrush x:type="GradientBrush">
         <Angle>Horizontal</Angle>
         <GradientStops>
-          <GradientStop Color="#FF61E2F9" Offset="0.01" />
+          <GradientStop Color="#FF60E2F9" Offset="0.01" />
           <GradientStop Color="Transparent" Offset="0.025" />
           <GradientStop Color="Transparent" Offset="1" />
         </GradientStops>
       </FocusBorderBrush>
       <ShadeBrush />
       <FontType>Wolf Sans</FontType>
+      <FontSize>50</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
       <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
       <LabelMargin>10,0,0,0</LabelMargin>
@@ -307,23 +308,38 @@
       <BorderBrush />
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="Dialog">
-      <CornerRadius>15,15,15,15</CornerRadius>
+      <BorderThickness>5,0,0,0</BorderThickness>
+      <CornerRadius>4,4,4,4</CornerRadius>
       <NoFocusBrush />
       <NoFocusBorderBrush />
-      <FocusBrush x:type="ColorBrush" Color="#FF00B7FF" />
-      <FocusBorderBrush />
+      <FocusBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#96A7C6E4" Offset="0" />
+          <GradientStop Color="#965293D5" Offset="0.492" />
+          <GradientStop Color="#962570D1" Offset="0.504" />
+          <GradientStop Color="#96002A60" Offset="1" />
+        </GradientStops>
+      </FocusBrush>
+      <FocusBorderBrush x:type="GradientBrush">
+        <Angle>Horizontal</Angle>
+        <GradientStops>
+          <GradientStop Color="#FF60E2F9" Offset="0.01" />
+          <GradientStop Color="#00FFFFFF" Offset="0.025" />
+          <GradientStop Color="Transparent" Offset="1" />
+        </GradientStops>
+      </FocusBorderBrush>
       <ShadeBrush />
       <FontType>Wolf Sans</FontType>
       <FontSize>35</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-      <NoFocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-      <LabelMargin>50,0,0,0</LabelMargin>
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FFF5F5F5" />
+      <LabelMargin>10,0,0,0</LabelMargin>
       <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
-      <EnableImage>true</EnableImage>
       <ImageMargin>3,3,3,3</ImageMargin>
       <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
       <ImageCornerRadius>4</ImageCornerRadius>
-      <Width>630</Width>
+      <Width>620</Width>
       <Height>53</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
       <HorizontalAlignment>Left</HorizontalAlignment>
@@ -332,7 +348,15 @@
       <CornerRadius>15,15,15,15</CornerRadius>
       <NoFocusBrush />
       <NoFocusBorderBrush />
-      <FocusBrush x:type="ColorBrush" Color="#ABF40D10" />
+      <FocusBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#96A7C6E4" Offset="0" />
+          <GradientStop Color="Transparent" Offset="1" />
+          <GradientStop Color="Transparent" Offset="1" />
+          <GradientStop Color="Transparent" Offset="1" />
+        </GradientStops>
+      </FocusBrush>
       <FocusBorderBrush />
       <FontType>Wolf Sans</FontType>
       <FontSize>18</FontSize>
@@ -346,13 +370,32 @@
       <FontType>Wolf Sans</FontType>
       <FontWeight>Black</FontWeight>
       <FontSize>50</FontSize>
-      <FontBrush x:type="ColorBrush" Color="#FF000000" />
+      <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
     </ControlStyle>
     <ControlStyle x:type="LabelStyle" StyleId="Dialog Text">
       <FontType>Wolf Sans</FontType>
       <FontWeight>Black</FontWeight>
       <FontSize>34</FontSize>
-      <FontBrush x:type="ColorBrush" Color="#FF000000" />
+      <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+    </ControlStyle>
+    <ControlStyle x:type="GroupStyle" StyleId="NextPlaying">
+      <BorderThickness>5,5,0,5</BorderThickness>
+      <CornerRadius>0,20,0,0</CornerRadius>
+      <BackgroundBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#B4000000" Offset="0" />
+          <GradientStop Color="#96000000" Offset="0.576" />
+        </GradientStops>
+      </BackgroundBrush>
+      <BorderBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#FF515151" Offset="0" />
+          <GradientStop Color="#89515252" Offset="1" />
+        </GradientStops>
+      </BorderBrush>
+      <GlossBrush />
     </ControlStyle>
   </ControlStyles>
 </StyleCollection>

@@ -185,6 +185,7 @@
       <FocusBrush x:type="ColorBrush" Color="#E1CBCBCB" />
       <FocusBorderBrush />
       <FontType>Roboto</FontType>
+      <FontSize>50</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
       <NoFocusFontBrush x:type="ColorBrush" Color="#CD000000" />
       <LabelMargin>10,0,0,0</LabelMargin>
@@ -277,23 +278,23 @@
       <BorderBrush />
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="Dialog">
-      <CornerRadius>15,15,15,15</CornerRadius>
+      <BorderThickness>1,1,1,1</BorderThickness>
+      <CornerRadius>4,4,4,4</CornerRadius>
       <NoFocusBrush />
       <NoFocusBorderBrush />
-      <FocusBrush x:type="ColorBrush" Color="#FF00B7FF" />
+      <FocusBrush x:type="ColorBrush" Color="#E1CBCBCB" />
       <FocusBorderBrush />
       <ShadeBrush />
       <FontType>Roboto</FontType>
       <FontSize>35</FontSize>
-      <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-      <NoFocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-      <LabelMargin>50,0,0,0</LabelMargin>
+      <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#CD000000" />
+      <LabelMargin>10,0,0,0</LabelMargin>
       <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
-      <EnableImage>true</EnableImage>
       <ImageMargin>3,3,3,3</ImageMargin>
       <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
       <ImageCornerRadius>4</ImageCornerRadius>
-      <Width>630</Width>
+      <Width>620</Width>
       <Height>53</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
       <HorizontalAlignment>Left</HorizontalAlignment>
@@ -323,6 +324,25 @@
       <FontWeight>Black</FontWeight>
       <FontSize>34</FontSize>
       <FontBrush x:type="ColorBrush" Color="#FF000000" />
+    </ControlStyle>
+    <ControlStyle x:type="GroupStyle" StyleId="NextPlaying">
+      <BorderThickness>5,5,0,5</BorderThickness>
+      <CornerRadius>0,20,0,0</CornerRadius>
+      <BackgroundBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#B4D3D3D3" Offset="0" />
+          <GradientStop Color="#96D3D3D3" Offset="0.576" />
+        </GradientStops>
+      </BackgroundBrush>
+      <BorderBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#FFB2B2B2" Offset="0" />
+          <GradientStop Color="#89D3D3D3" Offset="1" />
+        </GradientStops>
+      </BorderBrush>
+      <GlossBrush />
     </ControlStyle>
   </ControlStyles>
 </StyleCollection>

@@ -56,7 +56,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="70" />
-          <LabelText>#MP.SystemInfo.Label.Time</LabelText>
+          <LabelText>#MPD.SystemInfo.Label.Time</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
@@ -73,7 +73,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="70" />
-          <LabelText>#MP.SystemInfo.Label.Date2</LabelText>
+          <LabelText>#MPD.SystemInfo.Label.Date2</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>

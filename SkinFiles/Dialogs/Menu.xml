@@ -24,10 +24,10 @@
     <Control x:type="Label">
       <Name>Dialog Title</Name>
       <Id>1</Id>
-      <Width>615</Width>
+      <Width>526</Width>
       <Height>70</Height>
-      <PosX>61</PosX>
-      <PosY>58</PosY>
+      <PosX>119</PosX>
+      <PosY>64</PosY>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
@@ -40,9 +40,9 @@
     <Control x:type="List">
       <Name>NewList</Name>
       <Id>3</Id>
-      <Width>647</Width>
-      <Height>351</Height>
-      <PosX>61</PosX>
+      <Width>619</Width>
+      <Height>289</Height>
+      <PosX>74</PosX>
       <PosY>120</PosY>
       <VisibleCondition />
       <Animations />

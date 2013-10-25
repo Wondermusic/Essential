@@ -33,7 +33,25 @@
         <Animation x:type="Slide" Condition="WindowClose" Duration="1000" Easing="EaseIn" StartX="380" StartY="270" EndX="1280" EndY="270" />
       </Animations>
       <MediaPortalFocusControls />
-      <GroupStyle StyleId="Standard NowPlaying" />
+      <GroupStyle>
+        <BorderThickness>5,5,0,5</BorderThickness>
+        <CornerRadius>20,0,0,20</CornerRadius>
+        <BackgroundBrush x:type="GradientBrush">
+          <Angle>Vertical</Angle>
+          <GradientStops>
+            <GradientStop Color="#B4000000" Offset="0" />
+            <GradientStop Color="#96000000" Offset="0.576" />
+          </GradientStops>
+        </BackgroundBrush>
+        <BorderBrush x:type="GradientBrush">
+          <Angle>Vertical</Angle>
+          <GradientStops>
+            <GradientStop Color="#FF515252" Offset="0" />
+            <GradientStop Color="#89525353" Offset="1" />
+          </GradientStops>
+        </BorderBrush>
+        <GlossBrush />
+      </GroupStyle>
       <GroupControls>
         <Control x:type="Equalizer">
           <Name>Equalizer</Name>
@@ -41,7 +59,7 @@
           <Width>880</Width>
           <Height>160</Height>
           <PosX>10</PosX>
-          <PosY>10</PosY>
+          <PosY>2</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
