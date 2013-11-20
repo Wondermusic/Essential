@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Window xmlns:x="http://www.w3.org/2001/XMLSchema-instance" x:type="PlayerWindow">
   <IsDefault>false</IsDefault>
-  <Width>1280</Width>
-  <Height>720</Height>
+  <Width>1024</Width>
+  <Height>768</Height>
   <Name>Radio</Name>
   <Id>4</Id>
   <BackgroundBrush />
@@ -11,8 +11,9 @@
     <Control x:type="Image">
       <Name>Background</Name>
       <Id>1</Id>
-      <Width>1280</Width>
-      <Height>720</Height>
+      <Width>1366</Width>
+      <Height>768</Height>
+      <PosX>-177</PosX>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
@@ -25,12 +26,12 @@
       <Id>2</Id>
       <Width>900</Width>
       <Height>180</Height>
-      <PosX>380</PosX>
-      <PosY>270</PosY>
+      <PosX>124</PosX>
+      <PosY>560</PosY>
       <VisibleCondition />
       <Animations>
-        <Animation x:type="Slide" Condition="WindowOpen" Duration="1000" Easing="EaseOut" StartX="1280" StartY="270" EndX="380" EndY="270" />
-        <Animation x:type="Slide" Condition="WindowClose" Duration="1000" Easing="EaseIn" StartX="380" StartY="270" EndX="1280" EndY="270" />
+        <Animation x:type="Slide" Condition="WindowOpen" Duration="1000" Easing="EaseOut" StartX="1024" StartY="560" EndX="124" EndY="560" />
+        <Animation x:type="Slide" Condition="WindowClose" Duration="1000" Easing="EaseIn" StartX="124" StartY="560" EndX="1024" EndY="560" />
       </Animations>
       <MediaPortalFocusControls />
       <GroupStyle>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Window xmlns:x="http://www.w3.org/2001/XMLSchema-instance" x:type="MediaPortalWindow">
   <IsDefault>false</IsDefault>
-  <Width>1280</Width>
-  <Height>720</Height>
+  <Width>1024</Width>
+  <Height>768</Height>
   <Name>Others</Name>
   <Id>2</Id>
   <BackgroundBrush />
@@ -11,8 +11,9 @@
     <Control x:type="Image">
       <Name>Background</Name>
       <Id>1</Id>
-      <Width>1280</Width>
-      <Height>720</Height>
+      <Width>1366</Width>
+      <Height>768</Height>
+      <PosX>-177</PosX>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
@@ -23,8 +24,8 @@
     <Control x:type="Group">
       <Name>MyEmulators</Name>
       <Id>6</Id>
-      <Width>1280</Width>
-      <Height>720</Height>
+      <Width>1024</Width>
+      <Height>768</Height>
       <VisibleCondition>IsMediaPortalWindow(7942)</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
@@ -36,7 +37,8 @@
           <Id>7</Id>
           <Width>900</Width>
           <Height>180</Height>
-          <PosY>542</PosY>
+          <PosX>-4</PosX>
+          <PosY>585</PosY>
           <VisibleCondition />
           <Animations>
             <Animation x:type="Slide" Condition="WindowOpen" Duration="1000" Easing="EaseOut" StartX="-900" StartY="542" EndY="542" />
@@ -122,7 +124,7 @@
           <Id>12</Id>
           <Width>600</Width>
           <Height>300</Height>
-          <PosX>680</PosX>
+          <PosX>423</PosX>
           <PosY>210</PosY>
           <VisibleCondition />
           <Animations>
@@ -163,10 +165,8 @@
               <LabelStyle StyleId="40" />
               <LabelText>#Emulators2.CurrentItem.description</LabelText>
               <IsVertical>true</IsVertical>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollDelay>2</ScrollDelay>
               <ScrollSpeed>8</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
               <ScrollSeperator>------------------------------------</ScrollSeperator>
             </Control>
           </GroupControls>
@@ -181,12 +181,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>2,2,2,2</BorderThickness>
-            <CornerRadius>15,15,15,15</CornerRadius>
-            <BackgroundBrush x:type="ImageBrush" Image="\Video\defaultVideoBig.png" Stretch="Uniform" />
-            <BorderBrush x:type="ColorBrush" Color="#FF000000" />
-          </ImageStyle>
+          <ImageStyle StyleId="Empty" />
           <Image>#Emulators2.CurrentItem.coverpath</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Window xmlns:x="http://www.w3.org/2001/XMLSchema-instance" x:type="MediaPortalWindow">
   <IsDefault>true</IsDefault>
-  <Width>1280</Width>
-  <Height>720</Height>
+  <Width>1024</Width>
+  <Height>768</Height>
   <Name>Plain</Name>
   <Id>0</Id>
   <BackgroundBrush />
@@ -11,8 +11,9 @@
     <Control x:type="Image">
       <Name>Background</Name>
       <Id>1</Id>
-      <Width>1280</Width>
-      <Height>720</Height>
+      <Width>1366</Width>
+      <Height>768</Height>
+      <PosX>-177</PosX>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
@@ -23,8 +24,8 @@
     <Control x:type="Group">
       <Name>Date / Time</Name>
       <Id>2</Id>
-      <Width>1280</Width>
-      <Height>720</Height>
+      <Width>1024</Width>
+      <Height>768</Height>
       <VisibleCondition>!IsControlVisible(8)</VisibleCondition>
       <Animations>
         <Animation x:type="Zoom" Condition="VisibleTrue" Duration="200" Easing="EaseInOut" />
@@ -38,8 +39,8 @@
           <Id>6</Id>
           <Width>600</Width>
           <Height>200</Height>
-          <PosX>340</PosX>
-          <PosY>306</PosY>
+          <PosX>212</PosX>
+          <PosY>284</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -53,8 +54,8 @@
           <Id>4</Id>
           <Width>590</Width>
           <Height>80</Height>
-          <PosX>345</PosX>
-          <PosY>310</PosY>
+          <PosX>217</PosX>
+          <PosY>300</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -70,8 +71,8 @@
           <Id>5</Id>
           <Width>590</Width>
           <Height>80</Height>
-          <PosX>345</PosX>
-          <PosY>408</PosY>
+          <PosX>217</PosX>
+          <PosY>390</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -87,9 +88,9 @@
     <Control x:type="Label">
       <Name>CurrentModule</Name>
       <Id>7</Id>
-      <Width>1280</Width>
+      <Width>1024</Width>
       <Height>70</Height>
-      <PosY>650</PosY>
+      <PosY>692</PosY>
       <VisibleCondition />
       <Animations>
         <Animation x:type="Rotate" Condition="PropertyChanging" Duration="300" Pos3DXTo="90" />
@@ -106,10 +107,10 @@
     <Control x:type="Rectangle">
       <Name>Rectangle</Name>
       <Id>10</Id>
-      <Width>803</Width>
+      <Width>700</Width>
       <Height>606</Height>
-      <PosX>382</PosX>
-      <PosY>35</PosY>
+      <PosX>310</PosX>
+      <PosY>50</PosY>
       <VisibleCondition>IsControlVisible(8) ++ IsMediaPortalListLayout(Vertical)</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations>
@@ -124,10 +125,10 @@
     <Control x:type="Rectangle">
       <Name>Rectangle</Name>
       <Id>11</Id>
-      <Width>1103</Width>
+      <Width>1000</Width>
       <Height>622</Height>
-      <PosX>85</PosX>
-      <PosY>35</PosY>
+      <PosX>12</PosX>
+      <PosY>50</PosY>
       <VisibleCondition>IsMediaPortalListLayout(Horizontal) || IsMediaPortalListLayout(CoverFlow)</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations>
@@ -142,10 +143,10 @@
     <Control x:type="List">
       <Name>List</Name>
       <Id>8</Id>
-      <Width>1100</Width>
+      <Width>985</Width>
       <Height>600</Height>
-      <PosX>86</PosX>
-      <PosY>37</PosY>
+      <PosX>20</PosX>
+      <PosY>58</PosY>
       <VisibleCondition>IsMediaPortalControlFocused(50) || IsMediaPortalControlFocused(51)</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations>
@@ -159,18 +160,18 @@
         <BackgroundBrush />
       </ListControlStyle>
       <ListType>MediaPortalListControl</ListType>
-      <ListLayout>Auto</ListLayout>
+      <ListLayout>Horizontal</ListLayout>
       <VerticalItemStyle StyleId="Vertical" />
-      <HorizontalItemStyle StyleId="Horizontal" />
+      <HorizontalItemStyle StyleId="Vertical" />
       <CoverFlowItemStyle StyleId="CoverFlow" />
     </Control>
     <Control x:type="Image">
       <Name>Image</Name>
       <Id>9</Id>
-      <Width>360</Width>
-      <Height>360</Height>
+      <Width>275</Width>
+      <Height>380</Height>
       <PosX>12</PosX>
-      <PosY>180</PosY>
+      <PosY>204</PosY>
       <VisibleCondition>IsControlVisible(8) ++ IsMediaPortalListLayout(Vertical)</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Window xmlns:x="http://www.w3.org/2001/XMLSchema-instance" x:type="MPDisplayWindow">
   <IsDefault>true</IsDefault>
-  <Width>1280</Width>
-  <Height>720</Height>
+  <Width>1024</Width>
+  <Height>768</Height>
   <Name>Home</Name>
   <Id>1</Id>
   <BackgroundBrush />
@@ -11,8 +11,9 @@
     <Control x:type="Image">
       <Name>Background</Name>
       <Id>1</Id>
-      <Width>1280</Width>
-      <Height>720</Height>
+      <Width>1366</Width>
+      <Height>768</Height>
+      <PosX>-177</PosX>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
@@ -23,8 +24,8 @@
     <Control x:type="Group">
       <Name>Date / Time</Name>
       <Id>3</Id>
-      <Width>1280</Width>
-      <Height>720</Height>
+      <Width>1024</Width>
+      <Height>768</Height>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
@@ -35,8 +36,8 @@
           <Id>4</Id>
           <Width>600</Width>
           <Height>200</Height>
-          <PosX>340</PosX>
-          <PosY>306</PosY>
+          <PosX>212</PosX>
+          <PosY>284</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -50,8 +51,8 @@
           <Id>5</Id>
           <Width>590</Width>
           <Height>80</Height>
-          <PosX>345</PosX>
-          <PosY>310</PosY>
+          <PosX>212</PosX>
+          <PosY>300</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -67,8 +68,8 @@
           <Id>6</Id>
           <Width>590</Width>
           <Height>80</Height>
-          <PosX>345</PosX>
-          <PosY>408</PosY>
+          <PosX>212</PosX>
+          <PosY>390</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />

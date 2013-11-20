@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Window xmlns:x="http://www.w3.org/2001/XMLSchema-instance" x:type="PlayerWindow">
   <IsDefault>false</IsDefault>
-  <Width>1280</Width>
-  <Height>720</Height>
+  <Width>1024</Width>
+  <Height>768</Height>
   <Name>RockStar</Name>
   <Id>6</Id>
   <BackgroundBrush />
@@ -11,8 +11,9 @@
     <Control x:type="Image">
       <Name>Background</Name>
       <Id>1</Id>
-      <Width>1280</Width>
-      <Height>720</Height>
+      <Width>1366</Width>
+      <Height>768</Height>
+      <PosX>-177</PosX>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
@@ -23,14 +24,14 @@
     <Control x:type="Group">
       <Name>NowPlaying</Name>
       <Id>2</Id>
-      <Width>900</Width>
+      <Width>644</Width>
       <Height>470</Height>
       <PosX>380</PosX>
-      <PosY>250</PosY>
+      <PosY>298</PosY>
       <VisibleCondition />
       <Animations>
-        <Animation x:type="Slide" Condition="WindowOpen" Duration="1000" Easing="EaseOut" StartX="1280" StartY="250" EndX="380" EndY="250" />
-        <Animation x:type="Slide" Condition="WindowClose" Duration="1000" Easing="EaseIn" StartX="380" StartY="250" EndX="1280" EndY="250" />
+        <Animation x:type="Slide" Condition="WindowOpen" Duration="1000" Easing="EaseOut" StartX="1024" StartY="298" EndX="380" EndY="298" />
+        <Animation x:type="Slide" Condition="WindowClose" Duration="1000" Easing="EaseIn" StartX="380" StartY="298" EndX="1024" EndY="298" />
       </Animations>
       <MediaPortalFocusControls />
       <GroupStyle StyleId="Standard NowPlaying" />
@@ -38,7 +39,7 @@
         <Control x:type="Label">
           <Name>Artist</Name>
           <Id>3</Id>
-          <Width>890</Width>
+          <Width>634</Width>
           <Height>80</Height>
           <VisibleCondition />
           <Animations />
@@ -52,7 +53,7 @@
         <Control x:type="Label">
           <Name>Title</Name>
           <Id>4</Id>
-          <Width>890</Width>
+          <Width>634</Width>
           <Height>70</Height>
           <PosY>70</PosY>
           <VisibleCondition />
@@ -83,7 +84,7 @@
         <Control x:type="Equalizer">
           <Name>Equalizer</Name>
           <Id>6</Id>
-          <Width>654</Width>
+          <Width>400</Width>
           <Height>186</Height>
           <PosX>228</PosX>
           <PosY>273</PosY>
@@ -123,10 +124,9 @@
         <Control x:type="ProgressBar">
           <Name>ProgressBar</Name>
           <Id>7</Id>
-          <Width>330</Width>
+          <Width>636</Width>
           <Height>35</Height>
-          <PosX>279</PosX>
-          <PosY>183</PosY>
+          <PosY>147</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -161,7 +161,7 @@
           <Id>8</Id>
           <Width>280</Width>
           <Height>70</Height>
-          <PosY>160</PosY>
+          <PosY>170</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -176,8 +176,8 @@
           <Id>9</Id>
           <Width>280</Width>
           <Height>70</Height>
-          <PosX>610</PosX>
-          <PosY>160</PosY>
+          <PosX>354</PosX>
+          <PosY>170</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -195,11 +195,11 @@
       <Id>10</Id>
       <Width>335</Width>
       <Height>470</Height>
-      <PosY>250</PosY>
+      <PosY>298</PosY>
       <VisibleCondition />
       <Animations>
-        <Animation x:type="Slide" Condition="WindowOpen" Duration="1000" Easing="EaseOut" StartX="-335" StartY="250" EndY="250" />
-        <Animation x:type="Slide" Condition="WindowClose" Duration="1000" Easing="EaseIn" StartY="250" EndX="-335" EndY="250" />
+        <Animation x:type="Slide" Condition="WindowOpen" Duration="1000" Easing="EaseOut" StartX="-335" StartY="298" EndY="298" />
+        <Animation x:type="Slide" Condition="WindowClose" Duration="1000" Easing="EaseIn" StartY="298" EndX="-335" EndY="298" />
       </Animations>
       <MediaPortalFocusControls />
       <GroupStyle StyleId="NextPlaying" />

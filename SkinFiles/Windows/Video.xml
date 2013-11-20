@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Window xmlns:x="http://www.w3.org/2001/XMLSchema-instance" x:type="PlayerWindow">
   <IsDefault>false</IsDefault>
-  <Width>1280</Width>
-  <Height>720</Height>
+  <Width>1024</Width>
+  <Height>768</Height>
   <Name>Video</Name>
   <Id>7</Id>
   <BackgroundBrush />
@@ -11,8 +11,9 @@
     <Control x:type="Image">
       <Name>Background</Name>
       <Id>1</Id>
-      <Width>1280</Width>
-      <Height>720</Height>
+      <Width>1366</Width>
+      <Height>768</Height>
+      <PosX>-177</PosX>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
@@ -25,11 +26,11 @@
       <Id>2</Id>
       <Width>900</Width>
       <Height>180</Height>
-      <PosY>542</PosY>
+      <PosY>588</PosY>
       <VisibleCondition />
       <Animations>
-        <Animation x:type="Slide" Condition="WindowOpen" Duration="1000" Easing="EaseOut" StartX="-900" StartY="542" EndY="542" />
-        <Animation x:type="Slide" Condition="WindowClose" Duration="1000" Easing="EaseIn" StartY="542" EndX="-900" EndY="542" />
+        <Animation x:type="Slide" Condition="WindowOpen" Duration="1000" Easing="EaseOut" StartX="-900" StartY="588" EndY="588" />
+        <Animation x:type="Slide" Condition="WindowClose" Duration="1000" Easing="EaseIn" StartY="588" EndX="-900" EndY="588" />
       </Animations>
       <MediaPortalFocusControls />
       <GroupStyle StyleId="Now Playing Video" />
@@ -128,12 +129,12 @@
       <Id>7</Id>
       <Width>600</Width>
       <Height>95</Height>
-      <PosX>680</PosX>
+      <PosX>424</PosX>
       <PosY>312</PosY>
       <VisibleCondition />
       <Animations>
-        <Animation x:type="Slide" Condition="WindowOpen" Duration="1000" Easing="EaseOut" StartX="1280" StartY="210" EndX="680" EndY="210" />
-        <Animation x:type="Slide" Condition="WindowClose" Duration="1000" Easing="EaseIn" StartX="680" StartY="210" EndX="1280" EndY="210" />
+        <Animation x:type="Slide" Condition="WindowOpen" Duration="1000" Easing="EaseOut" StartX="1024" StartY="210" EndX="424" EndY="210" />
+        <Animation x:type="Slide" Condition="WindowClose" Duration="1000" Easing="EaseIn" StartX="424" StartY="210" EndX="1024" EndY="210" />
       </Animations>
       <MediaPortalFocusControls />
       <GroupStyle StyleId="Standard Informations" />
@@ -221,7 +222,7 @@
       <Width>258</Width>
       <Height>376</Height>
       <PosX>13</PosX>
-      <PosY>160</PosY>
+      <PosY>180</PosY>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
