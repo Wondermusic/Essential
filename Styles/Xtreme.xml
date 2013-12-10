@@ -379,9 +379,48 @@
       <Width>254</Width>
       <Height>100</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
+      <VerticalAlignment>Bottom</VerticalAlignment>
       <SelectionZoomX>150</SelectionZoomX>
       <SelectionZoomY>150</SelectionZoomY>
       <SelectionZoomDuration>200</SelectionZoomDuration>
+    </ControlStyle>
+    <ControlStyle x:type="ListItemStyle" StyleId="Home Vertical">
+      <BorderThickness>5,0,0,0</BorderThickness>
+      <CornerRadius>4,4,4,4</CornerRadius>
+      <NoFocusBrush />
+      <NoFocusBorderBrush />
+      <FocusBrush x:type="GradientBrush">
+        <Angle>Horizontal</Angle>
+        <GradientStops>
+          <GradientStop Color="#63000000" Offset="0" />
+          <GradientStop Color="#6400B7FF" Offset="0.014" />
+          <GradientStop Color="#6400B7FF" Offset="0.065" />
+          <GradientStop Color="#6400B7FF" Offset="0.086" />
+          <GradientStop Color="#8400B7FF" Offset="0.209" />
+          <GradientStop Color="#1A00B7FF" Offset="1" />
+        </GradientStops>
+      </FocusBrush>
+      <FocusBorderBrush x:type="GradientBrush">
+        <Angle>Horizontal</Angle>
+        <GradientStops>
+          <GradientStop Color="#FF00B7FF" Offset="0" />
+          <GradientStop Color="#0A00B7FF" Offset="0.288" />
+        </GradientStops>
+      </FocusBorderBrush>
+      <FontType>Titan</FontType>
+      <FontSize>50</FontSize>
+      <FocusFontBrush x:type="ColorBrush" Color="#FFFFFAFA" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FFF8F8FF" />
+      <LabelMargin>10,0,0,0</LabelMargin>
+      <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+      <ImageMargin>30,3,3,3</ImageMargin>
+      <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
+      <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+      <ImageCornerRadius>4</ImageCornerRadius>
+      <Width>710</Width>
+      <Height>80</Height>
+      <ItemMargin>1,1,1,1</ItemMargin>
+      <HorizontalAlignment>Right</HorizontalAlignment>
     </ControlStyle>
   </ControlStyles>
 </StyleCollection>

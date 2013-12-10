@@ -396,9 +396,32 @@
       <Width>254</Width>
       <Height>100</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
-      <SelectionZoomX>150</SelectionZoomX>
-      <SelectionZoomY>150</SelectionZoomY>
+      <VerticalAlignment>Bottom</VerticalAlignment>
+      <SelectionZoomX>140</SelectionZoomX>
+      <SelectionZoomY>140</SelectionZoomY>
       <SelectionZoomDuration>200</SelectionZoomDuration>
+    </ControlStyle>
+    <ControlStyle x:type="ListItemStyle" StyleId="Home Vertical">
+      <BorderThickness>5,0,0,0</BorderThickness>
+      <CornerRadius>4,4,4,4</CornerRadius>
+      <NoFocusBrush />
+      <NoFocusBorderBrush />
+      <FocusBrush />
+      <FocusBorderBrush />
+      <FontType>Fluid Title Caps</FontType>
+      <FontSize>50</FontSize>
+      <FocusFontBrush x:type="ColorBrush" Color="#FFFFFAFA" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FF778899" />
+      <LabelMargin>10,0,0,0</LabelMargin>
+      <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+      <ImageMargin>30,3,3,3</ImageMargin>
+      <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
+      <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+      <ImageCornerRadius>4</ImageCornerRadius>
+      <Width>710</Width>
+      <Height>80</Height>
+      <ItemMargin>1,1,1,1</ItemMargin>
+      <HorizontalAlignment>Right</HorizontalAlignment>
     </ControlStyle>
   </ControlStyles>
 </StyleCollection>

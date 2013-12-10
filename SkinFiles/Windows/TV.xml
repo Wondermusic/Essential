@@ -159,23 +159,6 @@
         <Control x:type="Label">
           <Name>Genre</Name>
           <Id>11</Id>
-          <Width>290</Width>
-          <Height>60</Height>
-          <PosX>300</PosX>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="50" />
-          <LabelText>#TV.View.genre</LabelText>
-          <LabelTextAlignment>Right</LabelTextAlignment>
-          <ScrollDelay>2</ScrollDelay>
-          <ScrollSpeed>10</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-          <ScrollSeperator>  |  </ScrollSeperator>
-        </Control>
-        <Control x:type="Label">
-          <Name>Channel</Name>
-          <Id>12</Id>
           <Width>590</Width>
           <Height>60</Height>
           <PosY>60</PosY>
@@ -183,9 +166,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="50" />
-          <LabelText>#TV.View.channel</LabelText>
-          <LabelTextAlignment>Right</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <LabelText>#TV.View.channel+ - +#TV.View.genre</LabelText>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>10</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>

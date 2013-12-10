@@ -2,7 +2,7 @@
 <XmlSkinInfo xmlns:x="http://www.w3.org/2001/XMLSchema-instance">
   <SkinWidth>1024</SkinWidth>
   <SkinHeight>768</SkinHeight>
-  <CurrentStyle>Titan</CurrentStyle>
+  <CurrentStyle>StreamedMP</CurrentStyle>
   <CurrentLanguage>Deutsch</CurrentLanguage>
   <TextEnableScrolling>false</TextEnableScrolling>
   <TextHorizontalScrollDelay>3</TextHorizontalScrollDelay>
@@ -15,6 +15,7 @@
   <TextVerticalScrollSeperator>---------------------------------</TextVerticalScrollSeperator>
   <SkinOptions>
     <SkinOption Name="Default" Group="BasicHome" IsEnabled="true" IsPreviewImageEnabled="true" PreviewImage="\Preview_Titan.png" />
+    <SkinOption Name="Horizontal" Group="BasicHome" Description="Use this option if you use a skin with a horizontal ClassicHome Menu" />
   </SkinOptions>
   <SkinName>Essential</SkinName>
   <Author>Wondermusic</Author>
