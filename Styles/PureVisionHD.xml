@@ -102,8 +102,8 @@
       </BarBackgroundBrush>
     </ControlStyle>
     <ControlStyle x:type="GroupStyle" StyleId="Standard NowPlaying">
-      <BorderThickness>5,5,5,0</BorderThickness>
-      <CornerRadius>20,20,0,0</CornerRadius>
+      <BorderThickness>5,5,0,0</BorderThickness>
+      <CornerRadius>20,0,0,0</CornerRadius>
       <BackgroundBrush x:type="GradientBrush">
         <Angle>Vertical</Angle>
         <GradientStops>
@@ -395,6 +395,7 @@
       <NoFocusBorderBrush />
       <FocusBrush />
       <FocusBorderBrush />
+      <EnableLabel>false</EnableLabel>
       <FontType>Titan</FontType>
       <FontSize>35</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FFFFFAFA" />
@@ -410,32 +411,23 @@
       <SelectionZoomDuration>200</SelectionZoomDuration>
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="Home Vertical">
-      <BorderThickness>5,0,0,0</BorderThickness>
-      <CornerRadius>4,4,4,4</CornerRadius>
+      <CornerRadius>5,5,5,5</CornerRadius>
       <NoFocusBrush />
       <NoFocusBorderBrush />
       <FocusBrush x:type="GradientBrush">
-        <Angle>Horizontal</Angle>
+        <Angle>Vertical</Angle>
         <GradientStops>
-          <GradientStop Color="#63000000" Offset="0" />
-          <GradientStop Color="#6400B7FF" Offset="0.014" />
-          <GradientStop Color="#6400B7FF" Offset="0.065" />
-          <GradientStop Color="#6400B7FF" Offset="0.086" />
-          <GradientStop Color="#8400B7FF" Offset="0.209" />
-          <GradientStop Color="#1A00B7FF" Offset="1" />
+          <GradientStop Color="#96A7C6E4" Offset="0" />
+          <GradientStop Color="#965293D5" Offset="0.489" />
+          <GradientStop Color="#96256FD1" Offset="0.511" />
+          <GradientStop Color="#96002A60" Offset="1" />
         </GradientStops>
       </FocusBrush>
-      <FocusBorderBrush x:type="GradientBrush">
-        <Angle>Horizontal</Angle>
-        <GradientStops>
-          <GradientStop Color="#FF00B7FF" Offset="0" />
-          <GradientStop Color="#0A00B7FF" Offset="0.288" />
-        </GradientStops>
-      </FocusBorderBrush>
-      <FontType>Titan</FontType>
+      <FocusBorderBrush />
+      <FontType>Wolf Sans</FontType>
       <FontSize>50</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FFFFFAFA" />
-      <NoFocusFontBrush x:type="ColorBrush" Color="#FFF8F8FF" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FFD3D3D3" />
       <LabelMargin>10,0,0,0</LabelMargin>
       <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
       <ImageMargin>30,3,3,3</ImageMargin>

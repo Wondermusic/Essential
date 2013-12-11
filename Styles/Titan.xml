@@ -388,8 +388,8 @@
       <Height>100</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
       <VerticalAlignment>Bottom</VerticalAlignment>
-      <SelectionZoomX>150</SelectionZoomX>
-      <SelectionZoomY>150</SelectionZoomY>
+      <SelectionZoomX>140</SelectionZoomX>
+      <SelectionZoomY>140</SelectionZoomY>
       <SelectionZoomDuration>200</SelectionZoomDuration>
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="Home Vertical">

@@ -102,8 +102,8 @@
       </BarBackgroundBrush>
     </ControlStyle>
     <ControlStyle x:type="GroupStyle" StyleId="Standard NowPlaying">
-      <BorderThickness>5,5,5,0</BorderThickness>
-      <CornerRadius>20,20,0,0</CornerRadius>
+      <BorderThickness>5,5,0,0</BorderThickness>
+      <CornerRadius>20,0,0,0</CornerRadius>
       <BackgroundBrush x:type="GradientBrush">
         <Angle>Vertical</Angle>
         <GradientStops>
@@ -387,6 +387,7 @@
       <NoFocusBorderBrush />
       <FocusBrush />
       <FocusBorderBrush />
+      <EnableLabel>false</EnableLabel>
       <FontType>Titan</FontType>
       <FontSize>35</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FFFFFAFA" />
@@ -402,8 +403,6 @@
       <SelectionZoomDuration>200</SelectionZoomDuration>
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="Home Vertical">
-      <BorderThickness>5,0,0,0</BorderThickness>
-      <CornerRadius>4,4,4,4</CornerRadius>
       <NoFocusBrush />
       <NoFocusBorderBrush />
       <FocusBrush />
@@ -420,7 +419,6 @@
       <ImageCornerRadius>4</ImageCornerRadius>
       <Width>710</Width>
       <Height>80</Height>
-      <ItemMargin>1,1,1,1</ItemMargin>
       <HorizontalAlignment>Right</HorizontalAlignment>
     </ControlStyle>
   </ControlStyles>
