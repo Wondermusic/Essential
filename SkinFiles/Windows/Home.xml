@@ -34,9 +34,9 @@
         <Control x:type="Rectangle">
           <Name>NewRectangle</Name>
           <Id>4</Id>
-          <Width>600</Width>
+          <Width>800</Width>
           <Height>200</Height>
-          <PosX>212</PosX>
+          <PosX>112</PosX>
           <PosY>284</PosY>
           <VisibleCondition />
           <Animations />
@@ -66,9 +66,9 @@
         <Control x:type="Label">
           <Name>Date</Name>
           <Id>6</Id>
-          <Width>590</Width>
+          <Width>790</Width>
           <Height>80</Height>
-          <PosX>212</PosX>
+          <PosX>112</PosX>
           <PosY>390</PosY>
           <VisibleCondition />
           <Animations />
