@@ -27,6 +27,7 @@
       <Width>1024</Width>
       <Height>768</Height>
       <VisibleCondition>!IsControlVisible(10) ++ !IsControlVisible(11)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations>
         <Animation x:type="Zoom" Condition="VisibleTrue" Duration="200" Easing="EaseInOut" />
         <Animation x:type="Zoom" Condition="VisibleFalse" Duration="200" Easing="EaseInOut" From="100" To="0" />
@@ -114,8 +115,8 @@
       <VisibleCondition>(!IsMediaPortalWindow(0) || !IsMediaPortalWindow(34)) ++ IsControlVisible(8)</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations>
-        <Animation x:type="Slide" Condition="VisibleTrue" Duration="300" Easing="EaseInOut" StartX="382" StartY="720" EndX="382" EndY="35" />
-        <Animation x:type="Slide" Condition="VisibleFalse" Duration="300" Easing="EaseInOut" StartX="382" StartY="35" EndX="382" EndY="720" />
+        <Animation x:type="Slide" Condition="VisibleTrue" Duration="300" Easing="EaseInOut" StartX="310" StartY="720" EndX="310" EndY="50" />
+        <Animation x:type="Slide" Condition="VisibleFalse" Duration="300" Easing="EaseInOut" StartX="310" StartY="50" EndX="310" EndY="720" />
       </Animations>
       <MediaPortalFocusControls />
       <BorderThickness>0,0,0,0</BorderThickness>
@@ -132,8 +133,8 @@
       <VisibleCondition>IsControlVisible(8) ++ (IsMediaPortalListLayout(Horizontal) || IsMediaPortalListLayout(CoverFlow))</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations>
-        <Animation x:type="Slide" Condition="VisibleTrue" Duration="300" Easing="EaseInOut" StartX="85" StartY="720" EndX="85" EndY="35" />
-        <Animation x:type="Slide" Condition="VisibleFalse" Duration="300" Easing="EaseInOut" StartX="85" StartY="35" EndX="85" EndY="720" />
+        <Animation x:type="Slide" Condition="VisibleTrue" Duration="300" Easing="EaseInOut" StartX="12" StartY="720" EndX="12" EndY="50" />
+        <Animation x:type="Slide" Condition="VisibleFalse" Duration="300" Easing="EaseInOut" StartX="12" StartY="50" EndX="12" EndY="720" />
       </Animations>
       <MediaPortalFocusControls />
       <BorderThickness>0,0,0,0</BorderThickness>
@@ -150,8 +151,8 @@
       <VisibleCondition>!IsControlVisible(10) ++ (IsMediaPortalControlFocused(50) || IsMediaPortalControlFocused(51))</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations>
-        <Animation x:type="Slide" Condition="VisibleTrue" Duration="300" Delay="100" Easing="EaseInOut" StartX="86" StartY="720" EndX="86" EndY="37" />
-        <Animation x:type="Slide" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" StartX="86" StartY="37" EndX="86" EndY="720" />
+        <Animation x:type="Slide" Condition="VisibleTrue" Duration="300" Delay="100" Easing="EaseInOut" StartX="20" StartY="720" EndX="20" EndY="58" />
+        <Animation x:type="Slide" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" StartX="20" StartY="58" EndX="20" EndY="720" />
       </Animations>
       <MediaPortalFocusControls />
       <ListControlStyle>
@@ -171,12 +172,12 @@
       <Width>986</Width>
       <Height>110</Height>
       <PosX>20</PosX>
-      <PosY>550</PosY>
+      <PosY>535</PosY>
       <VisibleCondition>IsControlVisible(10)</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations>
-        <Animation x:type="Slide" Condition="VisibleTrue" Duration="300" Easing="EaseInOut" StartX="382" StartY="720" EndX="382" EndY="35" />
-        <Animation x:type="Slide" Condition="VisibleFalse" Duration="300" Easing="EaseInOut" StartX="382" StartY="35" EndX="382" EndY="720" />
+        <Animation x:type="Slide" Condition="VisibleTrue" Duration="300" Delay="100" Easing="EaseInOut" StartX="20" StartY="720" EndX="20" EndY="535" />
+        <Animation x:type="Slide" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" StartX="20" StartY="535" EndX="20" EndY="720" />
       </Animations>
       <MediaPortalFocusControls />
       <BorderThickness>0,0,0,0</BorderThickness>
@@ -191,10 +192,9 @@
       <PosX>20</PosX>
       <PosY>58</PosY>
       <VisibleCondition>(IsMediaPortalWindow(0) || IsMediaPortalWindow(34)) ++ IsSkinOptionEnabled(Horizontal)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations>
-        <Animation x:type="Slide" Condition="VisibleTrue" Duration="300" Delay="100" Easing="EaseInOut" StartX="86" StartY="720" EndX="86" EndY="37" />
-        <Animation x:type="Slide" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" StartX="86" StartY="37" EndX="86" EndY="720" />
+        <Animation x:type="Slide" Condition="VisibleTrue" Duration="300" Delay="100" Easing="EaseInOut" StartX="20" StartY="720" EndX="20" EndY="58" />
+        <Animation x:type="Slide" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" StartX="20" StartY="58" EndX="20" EndY="720" />
       </Animations>
       <MediaPortalFocusControls />
       <ListControlStyle>

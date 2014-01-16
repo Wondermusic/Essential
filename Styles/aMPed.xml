@@ -352,7 +352,7 @@
       <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
       <ImageVerticalAlignment>Top</ImageVerticalAlignment>
       <ImageCornerRadius>4</ImageCornerRadius>
-      <Width>710</Width>
+      <Width>695</Width>
       <Height>80</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
       <HorizontalAlignment>Right</HorizontalAlignment>

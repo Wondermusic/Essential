@@ -344,7 +344,7 @@
       <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
       <ImageVerticalAlignment>Top</ImageVerticalAlignment>
       <ImageCornerRadius>4</ImageCornerRadius>
-      <Width>710</Width>
+      <Width>695</Width>
       <Height>80</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
       <HorizontalAlignment>Right</HorizontalAlignment>
@@ -388,8 +388,8 @@
       <Height>100</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
       <VerticalAlignment>Bottom</VerticalAlignment>
-      <SelectionZoomX>140</SelectionZoomX>
-      <SelectionZoomY>140</SelectionZoomY>
+      <SelectionZoomX>120</SelectionZoomX>
+      <SelectionZoomY>120</SelectionZoomY>
       <SelectionZoomDuration>200</SelectionZoomDuration>
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="Home Vertical">

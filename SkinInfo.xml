@@ -14,8 +14,8 @@
   <TextVerticalScrollWrap>true</TextVerticalScrollWrap>
   <TextVerticalScrollSeperator>---------------------------------</TextVerticalScrollSeperator>
   <SkinOptions>
-    <SkinOption Name="Default" Group="BasicHome" IsEnabled="true" IsPreviewImageEnabled="true" PreviewImage="\Preview_Titan.png" />
-    <SkinOption Name="Horizontal" Group="BasicHome" Description="Use this option if you use a skin with a horizontal ClassicHome Menu" />
+    <SkinOption Name="Default" Group="BasicHome" IsPreviewImageEnabled="true" PreviewImage="\Preview_Titan.png" />
+    <SkinOption Name="Horizontal" Group="BasicHome" IsEnabled="true" Description="Use this option if you use a skin with a horizontal ClassicHome Menu" />
   </SkinOptions>
   <SkinName>Essential</SkinName>
   <Author>Wondermusic</Author>
