@@ -115,8 +115,8 @@
       <VisibleCondition>(!IsMediaPortalWindow(0) || !IsMediaPortalWindow(34)) ++ IsControlVisible(8)</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations>
-        <Animation x:type="Slide" Condition="VisibleTrue" Duration="300" Easing="EaseInOut" StartX="310" StartY="720" EndX="310" EndY="50" />
-        <Animation x:type="Slide" Condition="VisibleFalse" Duration="300" Easing="EaseInOut" StartX="310" StartY="50" EndX="310" EndY="720" />
+        <Animation x:type="Slide" Condition="VisibleTrue" Duration="300" Easing="EaseInOut" StartX="320" StartY="720" EndX="320" EndY="50" />
+        <Animation x:type="Slide" Condition="VisibleFalse" Duration="300" Easing="EaseInOut" StartX="320" StartY="50" EndX="320" EndY="720" />
       </Animations>
       <MediaPortalFocusControls />
       <BorderThickness>0,0,0,0</BorderThickness>
