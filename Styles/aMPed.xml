@@ -420,5 +420,10 @@
       <Height>80</Height>
       <HorizontalAlignment>Right</HorizontalAlignment>
     </ControlStyle>
+    <ControlStyle x:type="ImageStyle" StyleId="RecIndicator">
+      <BorderThickness>0,0,0,0</BorderThickness>
+      <CornerRadius>0,0,0,0</CornerRadius>
+      <BackgroundBrush x:type="ImageBrush" Image="\Dialogs\aMPed\tv_is_recording.png" Stretch="Uniform" />
+    </ControlStyle>
   </ControlStyles>
 </StyleCollection>

@@ -3,9 +3,9 @@
   <LanguageEntries>
     <LanguageEntry Tag="@SeasonEpisode">
       <Values>
-        <LanguageValue Language="English" Value="Season / Episode" />
-        <LanguageValue Language="Deutsch" Value="Staffel / Folge" />
-        <LanguageValue Language="Francais" Value="Saison / Effet" />
+        <LanguageValue Language="English" Value="Episode" />
+        <LanguageValue Language="Deutsch" Value="Folge" />
+        <LanguageValue Language="Francais" Value="Effet" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@SeriesName">

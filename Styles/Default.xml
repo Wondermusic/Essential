@@ -16,7 +16,7 @@
       <GlossBrush />
     </ControlStyle>
     <ControlStyle x:type="LabelStyle" StyleId="60">
-      <FontType>Roboto</FontType>
+      <FontType>Arial</FontType>
       <FontSize>60</FontSize>
       <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
     </ControlStyle>
@@ -27,17 +27,17 @@
       <BorderBrush />
     </ControlStyle>
     <ControlStyle x:type="LabelStyle" StyleId="50">
-      <FontType>Roboto</FontType>
+      <FontType>Arial</FontType>
       <FontSize>50</FontSize>
       <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
     </ControlStyle>
     <ControlStyle x:type="LabelStyle" StyleId="70">
-      <FontType>Roboto</FontType>
+      <FontType>Arial</FontType>
       <FontSize>70</FontSize>
       <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
     </ControlStyle>
     <ControlStyle x:type="LabelStyle" StyleId="40">
-      <FontType>Roboto</FontType>
+      <FontType>Arial</FontType>
       <FontSize>40</FontSize>
       <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
     </ControlStyle>
@@ -195,7 +195,7 @@
         </GradientStops>
       </FocusBrush>
       <FocusBorderBrush />
-      <FontType>Roboto</FontType>
+      <FontType>Arial</FontType>
       <FontSize>50</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FFFFFAFA" />
       <NoFocusFontBrush x:type="ColorBrush" Color="#FFF8F8FF" />
@@ -232,7 +232,7 @@
       </FocusBrush>
       <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
       <ShadeBrush />
-      <FontType>Roboto</FontType>
+      <FontType>Arial</FontType>
       <FontSize>35</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
       <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFAFA" />
@@ -252,7 +252,7 @@
       <NoFocusBorderBrush />
       <FocusBrush x:type="ColorBrush" Color="#ABF40D10" />
       <FocusBorderBrush />
-      <FontType>Roboto</FontType>
+      <FontType>Arial</FontType>
       <FontSize>18</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
       <NoFocusFontBrush x:type="ColorBrush" Color="#FF000000" />
@@ -261,14 +261,14 @@
       <Height>60</Height>
     </ControlStyle>
     <ControlStyle x:type="LabelStyle" StyleId="Dialog Title">
-      <FontType>Roboto</FontType>
-      <FontWeight>Black</FontWeight>
+      <FontType>Arial</FontType>
+      <FontWeight>Bold</FontWeight>
       <FontSize>50</FontSize>
       <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
     </ControlStyle>
     <ControlStyle x:type="LabelStyle" StyleId="Dialog Text">
-      <FontType>Roboto</FontType>
-      <FontWeight>Black</FontWeight>
+      <FontType>Arial</FontType>
+      <FontWeight>Bold</FontWeight>
       <FontSize>34</FontSize>
       <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
     </ControlStyle>
@@ -336,7 +336,7 @@
           <GradientStop Color="#0A00B7FF" Offset="0.288" />
         </GradientStops>
       </FocusBorderBrush>
-      <FontType>Titan</FontType>
+      <FontType>Arial</FontType>
       <FontSize>50</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FFFFFAFA" />
       <NoFocusFontBrush x:type="ColorBrush" Color="#FFF8F8FF" />
@@ -380,7 +380,7 @@
       <NoFocusBorderBrush />
       <FocusBrush />
       <FocusBorderBrush />
-      <FontType>Roboto</FontType>
+      <FontType>Arial</FontType>
       <FontSize>35</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
       <NoFocusFontBrush x:type="ColorBrush" Color="#FFF8F8FF" />
@@ -401,8 +401,7 @@
       <NoFocusBorderBrush />
       <FocusBrush />
       <FocusBorderBrush />
-      <EnableLabel>false</EnableLabel>
-      <FontType>Titan</FontType>
+      <FontType>Arial</FontType>
       <FontSize>50</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FFFFFAFA" />
       <NoFocusFontBrush x:type="ColorBrush" Color="#FFF8F8FF" />
@@ -416,6 +415,11 @@
       <Height>80</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
       <HorizontalAlignment>Right</HorizontalAlignment>
+    </ControlStyle>
+    <ControlStyle x:type="ImageStyle" StyleId="RecIndicator">
+      <BorderThickness>0,0,0,0</BorderThickness>
+      <CornerRadius>0,0,0,0</CornerRadius>
+      <BackgroundBrush x:type="ImageBrush" Image="\Dialogs\Default\rec.png" Stretch="Uniform" />
     </ControlStyle>
   </ControlStyles>
 </StyleCollection>

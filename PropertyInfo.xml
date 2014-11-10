@@ -74,6 +74,7 @@
         <XmlMediaPortalTag Tag="#TVSeries.SeriesPoster" />
         <XmlMediaPortalTag Tag="#TVSeries.EpisodeImage" />
         <XmlMediaPortalTag Tag="#MovingPictures.Coverart" />
+        <XmlMediaPortalTag Tag="#TVSeries.SeasonPoster" />
       </MediaPortalTags>
       <IsInternal>false</IsInternal>
     </XmlProperty>
